@@ -1,0 +1,69 @@
+1. instance methods 
+-------------------
+
+        inside the method implementation when we use instance variables
+        then such type of methods are called instance methods
+
+        while declaring instance method we should pass self 
+
+        self is the first parameter of instance variables 
+
+        we can access instance methods within the class by using self
+
+        we can access instance methods outside of the class by using object reference 
+
+
+
+
+2. class methods:-
+-----------------
+
+
+        class method are very rarely used methods in python
+
+        inside the method implementation when we use only class level
+        variables or static variables then such type of method are called class method
+
+
+        while declaring class meethods we should pass class variable i.e cls
+
+        using cls we can access static or class level variables
+
+        to make a method as class method then we use @classmethod decorator
+
+        we can access class methods either by using class name or object referance
+
+
+
+
+3. static methods :-
+-------------------
+
+                static method are general utiliy methode
+                according to programmer requiemen he/she can creae these methods
+                with their own implementation .
+
+                while declaring static methods we should not pass self or cls
+
+                to make a method as static method then we use @staticmethod decoraror
+
+                we can access static methods either by using classname or object reference.
+
+
+
+
+Where we can decalare static variable
+----------------------------------------
+
+                1. inside the constructor by using self or classname
+                2. inside the instance method by using self or classname
+                3. inside the class methods by using cls or classname
+                4. inside the static method by using classname
+                5.  outside of the class by using object reference 
+
+
+
+We can delete static  variable any where by using the following syntax
+
+
+del classname.variablename
