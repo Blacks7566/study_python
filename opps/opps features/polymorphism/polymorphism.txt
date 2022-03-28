@@ -1,0 +1,13 @@
+Overloading:
+-----------
+
+1. operator Overloading   --- in python yes
+2. method Overloading  ------ in pyhton no
+3. constructor Overloading  --- in python no
+
+Overriding :
+-------------
+
+1. method Overriding..... in pyhton yes
+
+2 . constructor ..... in pyhton yes
