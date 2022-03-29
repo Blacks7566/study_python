@@ -1,0 +1,77 @@
+Exception handling Mechanism :-
+---------------------------
+is the process to show alltranative way of the program excution sufully
+
+1. Syntactical errors ---() , "",: worg spelling to the syntax
+
+2. runtime erros ---- exception ------abnormal termination of program execution
+
+
+1. logical implementation 
+
+2. try except implementation
+
+
+
+an unexpected or unwanted enevnt will disturb the normal flow of program execution is called exception
+
+
+
+in python every exception is a class
+
+
+1.name errors
+2.type errors
+3.value errors
+4.zero division errors
+5.file not found errors
+6.file exist error 
+
+
+Exception is the super class of all sub class exception
+
+
+
+try:
+
+   statements ---- here we write risky code
+
+except:
+     statements  ------ handling code
+
+
+
+     We have 2 type of except block
+
+
+
+   1. generic except block: except block without exception class
+
+   2. specific except block : except block with exception class
+
+
+
+exception2.py
+-------------
+
+   try:
+
+      statement -1
+      statement -2
+      statement -3
+
+
+   except:
+
+      statement -4
+
+
+   statement -5
+
+
+   case 1: if there is no exception ,1,2,3,5 and normal termination
+
+   case 2: if there is an excpetion at statement-2 ,1,4,5 and normal termination
+
+
+   case3> if there is an excpetion at statment-2 but correspoding except block not  matched 1 4 5 and normal termination

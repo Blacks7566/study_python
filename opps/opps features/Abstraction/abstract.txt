@@ -1,0 +1,54 @@
+Abstraction in Python is the process of hiding the real implementation of an application from the user and emphasizing only on how to use the application. 2)
+
+
+Abstract method :
+---------------
+
+1. a method which do not contain any implementation , which constain only declaration is called abstract method.
+
+2. sometimes as a programmer we know how to declare a method but we dont know how to implement it then we use adstract method
+
+3. to create abstract method then we use @abstractmethod decorator
+
+4. to leave the abstract method without implementation then we use pass keyword 
+ 
+5. abstract method should we override.
+
+
+
+@abstractmethod
+def m1(self):
+   pass
+
+
+
+abstract class:
+----------------
+
+1. a class which contain one or more abstract methods is called abstract class
+  abstract class also contain non absract methods.
+
+2. to create class as abstract then the class should be inherit or extend from predefined abstract base class i.e ABC
+
+3. ABC , abstract method decorator are present in abc module (abc ( abstract base class module))
+
+4. abstract class can not instantiate directly so that we need to create or derive new class to provide funtionality to its abstract method.
+
+
+5. we can not create object for abstract classs
+
+6 . partial implementation of  class called absract class.
+
+from abc import ABC,abstractmethod
+
+class Test(ABC):
+
+
+    @abstractmethod
+    def m1(self):
+    pass
+
+    
+
+  
+   
