@@ -1,0 +1,100 @@
+
+Thread Identification number:-
+
+-----------------------------
+
+ident  - impliset variable is used to get thread Identification number
+
+active_count():
+----------------
+
+this function returns  the no of active threads currently running
+
+
+isAlive() : checks whether a thread is still executing or not
+---------
+
+
+
+join():-
+-------  if a thread want to wait until completing some other thread then we should go for join method
+
+
+Synchronization : means at a time only one thread 
+--------------
+
+1. Lock
+
+2. RLock
+
+3. Semaphore 
+
+
+
+
+
+
+
+
+Interthrad communication by using event objects:
+------------------------------------------------
+
+event = threading.Event()
+
+
+        method of event class:
+        ---------------------
+
+        set():
+        clear():
+        isSet():
+        wait():
+
+
+
+Interthread communication by using condition object:
+-----------------------------------------------------
+
+        condition is always associated with RLock
+        condition = threading.Condition()
+
+
+method of condition class:
+--------------------------
+
+        1. acquire() : To acquire condition object before producing or consuming items
+                    i.e thread acquireing internal Lock
+
+
+        2. release(): to release condition object after producing or consuming items
+                    thread relese internal Lock
+
+        3. wait() : to give notification for waiting thread
+
+        4. notifyall(): to give notification for all thread
+
+
+
+
+
+
+
+
+
+
+
+
+
+Interthread communication by using queue:
+-----------------------------------------
+
+        import queue
+
+        q = queue.Queue()
+
+
+        method of queue:
+
+        put() : put an item into the queue
+
+        get(): remove and return an item from the queue

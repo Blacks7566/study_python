@@ -1,0 +1,75 @@
+Multitasking:
+------------
+
+        Executing multiple task at the same time.
+
+
+
+Type of Multitasking:
+--------------------
+
+1. Process based Multitasking
+
+        Excecuting multiple task at the same time where each task is a separate independent
+        program(process), is called process based multipletaking It is suitable for Operation system level.
+
+
+
+2. Thread based Multitasking
+
+        Excecuting multiple tast at the same time where each task is a sepearate independent part of the
+        same program(process) is called Thread based multitaking and each independent part is called Thread 
+        it is suitable for programmatic level
+
+
+
+
+Thread :
+
+        Thread is a separate flow of execution . Every thread have a task
+
+
+
+Multithreading:
+
+            Using multiple threads in program or process
+
+
+  The main important application areas of multi threading are :
+
+  1. multimedia Graphic
+
+  2. Animation
+
+  3. video Games
+
+  4. web server
+
+  5. Application servers
+
+
+
+
+
+
+Single Tasking :
+
+------------------
+
+
+        When multiple tasks are executed by a thread one by one , then it called single Tasking.
+
+        Writing Examination
+
+
+
+Multitasking using multiple Thread
+-------------------------------------
+        When multiple tasks are executed  at a time , then it is callsed multi- tasking For 
+        this purpose we need more than one thread and when we used more than one thread, it is called multi threading
+
+
+        
+
+
+

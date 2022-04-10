@@ -1,0 +1,48 @@
+Quintifiers:
+
+
+
+we can use quantitiers to specify the number of occurrences to match
+--------------------------------------------------------------------
+
+
+
+
+
+a      ---> Ecaxtly one 'a'
+a+   -----> Atleast one 'a'
+a*   ----->  Any number of a's including zero numbers
+a?    ----> Atmost one 'a' ie either zero numbers or one number
+a{m}  ----> Ecaxtly m number of a'specify
+a{m,n} ---> Minimum m number of a ' s and maximum n number of a's
+
+
+
+
+
+
+
+
+
+
+
+
+function : 
+
+
+1. compile()
+2. finditer()
+3. match()
+4. fullmatch()
+5.search()
+6.findall()
+7.sub() : 
+
+re.sub(regex,replacement,targetString)
+
+
+
+8. subn()
+9.split()
+
+

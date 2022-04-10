@@ -1,0 +1,12 @@
+
+
+exception Type:
+
+1. predefined Exception
+2. userdefined or customized exception
+
+class classname(predefinedException):
+
+       def __init__(self,arg):
+           
+           self.msg = arg

@@ -66,12 +66,63 @@ exception2.py
       statement -4
 
 
-   statement -5
+statement -5
 
 
-   case 1: if there is no exception ,1,2,3,5 and normal termination
+      case 1: if there is no exception ,1,2,3,5 and normal termination
 
-   case 2: if there is an excpetion at statement-2 ,1,4,5 and normal termination
+      case 2: if there is an excpetion at statement-2 ,1,4,5 and normal termination
 
 
-   case3> if there is an excpetion at statment-2 but correspoding except block not  matched 1 4 5 and normal termination
+      case3:  if there is an excpetion at statment-2 but correspoding except block not  matched 1 4 5 and normal termination
+
+      case 4: if there is an exception at statement -4 
+               then it is always 
+
+
+
+
+
+
+finallys.py
+--------------
+
+
+
+try: 
+   statements ----- risky code
+
+except:
+     statements ------ handing code
+
+finally:
+      statemnets ------ mandatory messages
+
+
+
+      there is only one situstion where we can stop the execution of finally block
+
+
+
+
+
+
+
+
+
+
+import os
+
+OS._exit(0)  --- pvm will shut down itself (pvm - python vartual machin)
+
+
+this function can stop the excution of finally block
+
+
+
+Nested try except finally block :-
+
+__________________________________
+
+a try block or except block or finally block which is having one more try except finally block is called
+nested try except finally block

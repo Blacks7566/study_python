@@ -1,0 +1,27 @@
+^ symbol : 
+
+        to check wether the given traget string start with our provided pattern or not
+
+$ symbol : 
+
+        to check wether the given sting ends with provided pattern or not
+
+
+
+
+write a rugular expression to represent 10 digits moblie number
+
+
+1. Every number should contain exactly 10 digits
+
+2. The 1st digit should be 7,6,8,or 9 
+
+[6-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+
+or
+
+[6-9][0-9]{9}
+
+or
+
+[6-9]\d{9}

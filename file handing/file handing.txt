@@ -1,0 +1,118 @@
+1. temporary storage area ----- python object like list , tuple
+
+2. permanent storage area -- files and , datebases
+
+
+
+File :-
+---------
+
+        1. Text files ------ Character data ---- .txt
+        2. Binary files ----- binary data 
+
+
+
+
+fileObject = open("filename.txt","filemode")
+
+
+f = open("sample.txt","w")
+
+f.close()
+
+
+
+File Mode:-
+___----___
+
+
+
+    w ---- write
+
+    r ----- read
+
+    a ----- append
+
+    w+ ---- writer and read
+
+    r+ ------ read and write
+
+    a+ ----- apped and read
+
+    x ------ exclusive creation mode   for write opertion
+
+
+
+
+file properties and methods
+-------------------------------
+
+        1. name : name of the opened file
+        2. mode : mode of the file 
+        3. readable() : true/false
+        4. writable() : true/false
+        5. closed() :   true/flase
+
+
+
+write the data into a file:
+---------------------------
+
+                1. write() ----- string data
+                2. writelines() ------- list of lines
+
+
+
+reading the data from file :
+---------------------------
+
+                1. read(): to read complete data from file
+                2. read(n) : to read n no of characters
+                3. readilne() : to read fist line of the file
+                4. readlines() : to read all lines into a list
+
+
+
+
+with
+   statement1
+   statement2
+   statement3
+
+
+f = open("filename","filemode")
+
+with open("filename","filemode") as f :
+        
+        statements
+
+
+
+
+methods
+--------
+
+                1. tell(): is used to know where  the cursor or file pointer to positioned.
+
+                2. seek(): is used to move the cursor position at desired location
+        
+
+
+zip and unzip operations:
+-------------------------
+
+        zip = zonal improvement plan
+
+        RAR = Roshal archieve
+
+        JAR = JAVA archieve
+
+        TAR = Taped archieve
+
+
+import zipfile 
+
+f = ZipFile.ZipFile("filename.zip","w",ZIPDEFLATED)
+f = ZipFile.ZipFile("filename.zip","R",ZIPSTORED)
+
+                

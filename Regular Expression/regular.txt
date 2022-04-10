@@ -1,0 +1,22 @@
+import re
+
+
+re module contains diffrent type of functions 
+
+
+1. compile():
+
+        is used to compile a pattern into regex object
+
+
+2. finditer():
+
+        is used to find the iteration of match object
+
+
+
+in match object we can apply the following methods
+
+1.start()
+2.end()
+3.group

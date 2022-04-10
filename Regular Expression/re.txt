@@ -1,0 +1,113 @@
+Regular Ecpressions:
+
+
+        ir we want to represent a group of strings according to a particular
+        format/pattern then we should go for regular expressions
+
+
+        i.e Regular Ecpressions is a declarative machanism to represent a group of 
+        string according to particular format/pattern
+
+
+Ex 1: We can write a regular expression to represent all mobile numbers
+
+
+
+
+EX  2: we can write a regular expression to represent all mail ids
+
+
+The main important application areas of regular expressions are
+
+
+        1. To develop validation frameworks/validation logic
+
+        2. To develop pattern matching application
+
+        3. to develop Translators like compiler , interpreters etc
+
+        4. to develop digital circuits
+
+        5. to develop communication protocols like TCP/IP , UDP etc
+
+
+we can develop regular expression based application by using python
+
+
+
+
+
+module re1.
+
+--------------
+
+        1. compile() re module contains compile() fuction to compile a pattern inti regex object.
+
+        pattern = re.compile("ab")
+
+        2. finditer(): Returns an iterator object which , Match object for every matching
+
+
+
+
+
+
+
+
+We can use character classes to search a group of characters
+------------------------------------------------------------
+
+
+
+        1. [abc] ---> Either a or b or c 
+
+        2. [^abc] ----> Except a and b and c
+
+        3. [a-z]----> Any Lower case alphabet symbol
+
+        4. [A-z] ---> Any uuper case alphabet symbol
+
+        5. [a-zA-Z]---> Any alphabet symbol
+
+        6. [0-9] --> Any digit from 0 to 9
+
+        7. [a-aA-A0-9] --> Any alphanumeric character 
+
+        8.[^a-zA-A0-9]---> Except alhanumeric charcters(Special charcters)
+
+
+
+Pre difined character clasess:
+------------------------------
+
+                \s ----> Space character
+
+                \S ----> Any character ecxept space character
+
+                \d -----> Any digit from 0 to 9
+
+                \D ----> Any character except digit
+
+                \w ----> Any word character [a-zA-Z0-9]
+
+                \W ---> Any charcter except word character (Special Characters)
+
+                . ------> Any character including special charcter
+
+
+
+
+
+
+
+Quantifiers:
+
+We can use Quantifiers to specify the number of occurrences to match
+
+a -- Exactly one 'a'
+
+a+ --- Atleast one 'a'
+
+a* ----- Any number of a's including zero number or one number
+
+a? --- Atmost one 'a; ie either zero number or one number

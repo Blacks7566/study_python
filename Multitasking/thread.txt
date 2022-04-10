@@ -1,0 +1,221 @@
+Thread :
+------
+
+Thread is a separate flow of execution . Every thread has a task
+
+
+Multithreading :
+----------------
+
+Using multiple Threads in program or process
+
+    The main important application areas of multi threading are:
+
+        1. multimedia Graphic
+        2. Animations
+        3. Video Games
+        4. Web Servers
+        5. Application Servers
+
+
+
+Main Thread :
+------------
+When we start any python program one thread begins running 
+immediately, which is called main Thread of thet program created by
+PVM.
+
+
+The main thread is creadted automatically when your program is started.
+
+
+
+Creating a Thread:
+------------------
+
+Thread class of threading module is used to create threds. To create our own thread
+we need to create an objecct of Thread Class.
+
+    Following are the way of creating threads:-
+
+        1. creating a thread without using a class
+
+                from threading import Thread
+
+                thread_object = Thread(target=function_name,agrs=(arg1,arg2,..))
+
+                thread_object - it represents our thread
+                
+                target- it represents the function on which the thread will application
+
+                args - it represents a tuple of arguments which are passed to the function
+
+                Ex:-
+
+                t = Thread(target=disp ,args=(10,20))
+
+                t.start() -- start the thread
+
+
+
+
+        2. creating a thread by creating child class to Thread class
+        3. creating a thread without creating child class to Thread class
+
+
+                We can create an independent thread child class that does not inherit form thread class
+                from thrading module.
+
+                        class ClassName:
+                                statement
+
+                                object_name = ClassName()
+
+                        
+                         object_name = Thread(target=object_name.function_name, agrs=(a,b,...))
+
+
+
+Thread Class Methods
+. start() - Once a thread is created is should be startd by calling start() Methods
+
+. run()- Every thread will run this method when thread is started. We can override this method and wirte our own code as boby of the method 
+            A thread will terminate automatically when it comes out of the run() method.
+
+. join() - This method is used to wait till the thread completely executes the run() method.
+
+
+
+
+
+Thread child class with Constructor
+-----------------------------------
+
+
+        from threading import *
+
+
+
+        class Mythread(Thread):
+
+                def __init__(self,a):
+                        
+                        Thread.__init__(self)
+
+                        self.a = a
+                
+
+        t = Mythread(10)
+
+
+
+Thread Synchronization :-
+------------------------
+
+        Many threads trying to access the same object can lead to problems like making data
+        inconsistent or getting inexpected output So When a thread is already accessing an object, 
+        proventing any other thread accessing the same object is called Thread Synchronization
+
+        The object on which the threads are sunchroniztion is called Synchronized object or Mutually Exclusive Lock (mutex)
+
+        Thread Synchronization is reconmmeded when multiple threads are acting on the same object simultaneouly.
+
+
+There are following techniques to do Thread Synchronization
+
+. Using locks
+
+
+                Lock--->
+
+                Locks are typically used to Synchronize access to a shared resource. Lock can be used to lock the
+                object in which the thread is action. A lock has only two states. locked and unlocked. It is created in the unlocked state. 
+
+
+                methods:
+
+                1. acquire()  --> This method is used to changes the stated to locked and returns immediately. when the state is locked acquire()
+                                  blocks until a call to release() in another therad chnages it ti unlocked , Then the 
+                                  acpuire() call resets it to locked and returns.
+
+
+
+
+                                syntax :- 
+
+                                acquire(blocking = True , timeout = -1)
+
+
+
+
+               2. release()  -- > This method is used to release a lock This can be called from any thread , not
+               only the thread which has acquired the lock
+               
+
+               When the lock is locked reset it to kunlocked and return if any other threads  are blocked waiting fo the lock to
+               become unlocked allow exactly one of them to processd
+
+               When invoked on an unlocked lock a Runtime Error is raised
+               There is no return value
+
+               syntax = release()
+                   
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. Using RLock (Re - Entrant Lock)
+
+. Using Semaphores
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+Packages is a directory:
+------------------------
+
+package is a directory or folder which consists group of modules
+
+packages ----- modules ------------- classes -------- methods ---- variables
+
+to access modules from packages we need use the following syntax
+
+import sys
+
+sys.path.append("path of the package)
+
+
+1. importing modules from single package
+2. importing modules from subpackage
+3. importing class from 2 different modules and package
