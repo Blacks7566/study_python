@@ -1,0 +1,32 @@
+Generator is function which is responsible to genrate
+a sequence of values
+
+
+we can write Generator function junst like an ordinary function
+but it uses yeild keyword to return the values
+
+
+
+function:
+----------
+
+def f1()
+
+   return
+
+
+
+
+generator:
+---------
+
+def f1()
+    yield 
+
+
+
+
+
+defference between normal collection and generator collection
+---------------------------------------------------
+

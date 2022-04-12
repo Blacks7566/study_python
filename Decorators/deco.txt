@@ -1,0 +1,63 @@
+Decorators:
+-------------
+
+@abstractmethod
+@staticmethod
+@classmethod
+
+
+user define Decorators
+-----------------------
+
+Decorators is function which can take a fucntion as argument and extend it functionality and return modified function with 
+extended functionality
+
+
+
+The main objective of decorator is we can extend the functionality of existing fucntion without modifies that function.
+
+def f1(name):
+
+    print("hello",name,"Good morning")
+
+
+
+if we want to modifiy this fucntion to provide diffrent message
+
+if name is durga we can so this by using decorator without touching the existing fucntion
+
+
+
+
+Generators:
+-----------
+
+Generators is a function which is responsible to generate a sequence of values
+
+
+we can write generate fucntion just like an ordinary function
+but it uses yield keyword to return the values
+
+
+
+def f1()
+
+    return 
+
+
+
+
+def f1()
+    
+    yield
+
+
+
+
+
+
+
+diffrence between normal collection and generator collection 
+
+
+generator function

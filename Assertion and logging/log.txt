@@ -1,0 +1,7 @@
+INFO:root:A new request came
+INFO:root:A new request came
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "d:\go\Assertion and logging\logginG.py", line 14, in <module>
+    print("result is : ",x/y)
+ZeroDivisionError: division by zero

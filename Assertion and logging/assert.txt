@@ -1,0 +1,33 @@
+Debugging python program by using assert keyword
+-------------------------------------------------
+
+
+The process of identifying and fixing the bug is called Debugging
+
+
+
+print()
+
+100 lines 
+
+every 10 line after one print("")
+
+
+
+
+assert conditional_expression , message
+
+
+
+Logging :-
+--------
+
+it is highly recommed to store compelet application flow and exception info to your file this process call logging
+
+import Logging
+
+
+logging.basicConfig(filname='log.txt',level=logging.WRNNING)
+    
+
+

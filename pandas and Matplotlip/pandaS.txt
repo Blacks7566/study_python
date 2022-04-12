@@ -1,0 +1,21 @@
+Pandas : 
+
+pands stand for python data analysis 
+
+using pandas we can create data series and data frames
+
+data series ----- single dimension array
+
+data frames --- two dimension array
+
+
+
+Matplotlip :- Mathematical plot library
+
+matplaotlip is for data visulization
+
+
+
+
+
+
